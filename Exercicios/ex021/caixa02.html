@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header {
+            
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(117, 117, 117);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.274);
+
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+        }
+
+        article {
+            background-color: lightslategray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(89, 120, 151);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: aliceblue;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AD ORVALHO</h1>
+        <nav>
+            <a href="#">Quem somos</a>
+            <a href="#">Ministérios</a>
+            <a href="#">Agenda</a>
+            <a href="#">Pastores</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"></section>
+            <p>Esportes Políticas Tecnologia</p>
+        <section id="noticias"></section>
+            <article>
+                <h2>A verdade</h2>
+                <p>E disse Jesus: "Eu sou o Caminho, a Verdade e a Vida. Ninguém vem ao Pai, a não ser por mim."" Jo 14:6 </p>
+                <aside>
+                    <p>Artigo escrito por Math Ortega</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por Ortega Produtora</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
